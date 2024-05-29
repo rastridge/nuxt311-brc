@@ -5,7 +5,7 @@ const title = ref('originaltitle.value')
 </script>
 
 <template>
-	<p>HELLO THERE HELLO THERE HELLO THERE HELLO THERE</p>
+	<p>HELLO THERE HELLO THERE HELLO THERE HELLO THERE HELLO THERE</p>
 	<!-- <testvmodel :modelValue="title" @update:modelValue="$event => (title = $event) " /> -->
 	<testvmodel v-model="title" />
 	<br>
